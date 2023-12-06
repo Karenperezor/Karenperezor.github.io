@@ -1,10 +1,6 @@
-# Karenperezor 
+# PAGINA WEB 
 
-# Nombre: 
-Karen Perez Ortiz 
-# Carrera:
-Tecnologias de la Informacion y comunicaciones
-# Materia: 
-Introduccion a las tics 
-# Grupo: 
-1B
+Nombre: <br> Karen Perez Ortiz 
+Carrera: <br> Tecnologias de la Informacion y comunicaciones
+Materia:  <br> Introduccion a las tics 
+Grupo:  <br> 1B
