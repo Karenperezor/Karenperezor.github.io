@@ -1,0 +1,45 @@
+body {
+
+    background-color: #E2FCF4;
+    font-family: "Open Sans", sans-serif; 
+    font-size: 20px;    
+    margin: 40px;
+    padding: 40px;
+    border: 4px solid #000000; /* Color del borde */
+    box-shadow: 0 0 20px #000000 /* Sombra */
+}
+
+h1 {
+    font-family: Calibri, sans-serif;
+    color: #0C0060;
+}
+
+h2 {
+    font-family: Calibri, sans-serif;
+    color: #190145;
+    font-size: 15px;
+}
+
+p{
+  background-color: 
+    font-family Calibri, sans-serif;
+    font-size: 20px;  
+}
+    
+li{
+    font-family: Calibri, sans-serif;
+    color:  #370145;
+    font-size: 15px; 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: circle;
+}
+p{
+    color: #000000;
+}
