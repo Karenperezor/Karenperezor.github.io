@@ -1,83 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-   <link rel="stylesheet" href="style.css">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karen Pérez Ortiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Karen Pérez Ortiz</h1>
+    <p>Mi galería personal ✨</p>
+  </header>
+
+  <main class="gallery">
+    <!-- Tarjeta 1 -->
+    <div class="card" onclick="openModal('img/yopformal2.jpg', '¿Quién soy?', 'Soy Karen Pérez Ortiz, una chica empática, alegre e introvertida que ama aprender y ayudar.')">
+      <img src="img/yopformal2.jpg" alt="Karen formal" />
+      <p>¿Quién soy?</p>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <div class="card" onclick="openModal('img/codigo.jpg', '¿Por qué estudio Tics?', 'Estudio TICS porque me encanta crear cosas desde una computadora.')">
+      <img src="img/codigo.jpg" alt="Código" />
+      <p>¿Por qué estudio TICS?</p>
+    </div>
+
+    <!-- Tarjeta 3 -->
+    <div class="card" onclick="openModal('img/lugar.jpg', '¿De dónde vengo?', 'Vengo de Mixquiahuala, Hidalgo, un lugar lleno de tradiciones y naturaleza.')">
+      <img src="img/lugar.jpg" alt="Lugar" />
+      <p>¿De dónde vengo?</p>
+    </div>
+
+    <!-- Tarjeta 4 -->
+    <div class="card" onclick="openModal('img/patineta.jpg', 'Pasatiempos', 'Me gusta practicar patineta, ver pelis, escuchar música y aprender italiano.')">
+      <img src="img/patineta.jpg" alt="Patineta" />
+      <p>Mis pasatiempos</p>
+    </div>
+
+    <!-- Tarjeta 5 -->
+    <div class="card" onclick="openModal('img/musica.jpg', 'Mis intereses', 'Me gusta la música, aprender astronomía y programar cosas nuevas.')">
+      <img src="img/musica.jpg" alt="Música" />
+      <p>Mis intereses</p>
+    </div>
+
+    <!-- Tarjeta 6 -->
+    <div class="card" onclick="openModal('img/diaFestivo.jpg', 'Tradiciones', 'Me gusta celebrar el Día de Muertos y otras fiestas tradicionales.')">
+      <img src="img/diaFestivo.jpg" alt="Tradición" />
+      <p>Tradiciones</p>
+    </div>
+  </main>
 
 
-    <title> Página web</title>
-<body> 
-   
-    <h1> ¿Quien soy? </h1>
-<p><br> 
-Soy Karen Perez Ortiz una chica introvertida, alegre, empática, que le gusta apasionarse con sus gustos me gusta investigar mas alla de todo cuando algo me llama mucho la antencion, me gusta apoyar a mis amigos, trato de ser un buen ejemplo para mis padres, busco lo mejor para mi y me gusta que las cosas salgan bien.  Me encantan  las cosas sencillas pero agradables.
-<br> <br>
-<img src="img/yopformal2.jpg"  alt="Foto formal de mi de cuerpo completo" width="600">
-</p> <br> <br>
 
+  <!-- MODAL -->
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="cerrar">&times;</span>
+    <img id="modal-img" />
+    <div class="caption">
+      <h2 id="modal-title"></h2>
+      <p id="modal-text"></p>
+    </div>
+  </div>
 
-</p>
-<h1> ¿Porque estudio Tics? </h1>
-<p><br> 
-Estudio tics porque es una carrera que me llamó mucho la atención, ademas de ser una carrera con la que conecto mas a diferiencia de otras,  me agarda la idea de poder crear cosas solo con una computadora. Durante los años que fui estudiando me generó más interés, además de que es una carrera muy variada , buen pagada y con muchas oportunidades. Generalmente mis intereses en esta carrera es páginas web, programación y redes.
-<br> <br> <br>
-<img src="img/codigo.jpg" alt="Codigo de programación" width="600">
-<br> <br>
- 
-
-<h1> ¿De donde vengo? </h1>
-<p><br> 
-   Vivo en una colonia pequeña en el municipio de Mixquiahuala que pertenece al estado de Hidalgo en México, se caracteriza por ser una colonia con muchas costumbres como lo es el dia de muertos, fuego nuevo y la pone y quita bandera, cuenta con un paisaje lleno de mezquites, biznagas entre otro muchos otros árboles.
-</p>
-<br> <br>
-<img src="img/lugar.jpg" alt="Foto de un atardecer cerca de mi casa" width="600">
-<br> <br>
-<img src="img/diaFestivo.jpg" alt="Foto de dia de muertos en la piramide" width="600">
-<br> <br>
-
-
-<h1> Mis pasatiempos </h1>
-<p> <br> 
-Mis pasatiempos no son muy extraordinarios, pero me gusta pasar mi tiempo libre en paz:
-<ul>
-   <li> Ver videos en internet </li>
-   <li> Ver películas y series en especial género de ficción y suspenso  </li>
-   <li> Me gusta escuchar música, mis géneros favoritos son pop, rock,indie y  alternativa. </li>
-   <li> Salir con amigos y familia.  </li>
-   <li> Jugar con mi gato.  </li>
-   <li>  Practicar patineta  </li>
-   <li> Practicar Italiano </li>
-   <li> Aprender de astronomia </li>
-</ul>
-
-<br> <br> 
-<img src="img/patineta.jpg" alt="Imagen de mi patineta " width="600">
-<br> <br> 
-
-
-<p>
-<h1> Mis intereses </h1>
-<br>
-<ul>
-   <li> <a href=" https://youtu.be/UlszqT_DEpE?feature=shared"> Video acerca de frases motivadoras con humor  </a></li>
-   <li> <a href="  https://youtu.be/UlszqT_DEpE?feature=shared "> Página que me ayuda a programar en html y java
-
-   </a> </li>
-   <li> <a href=" https://spotify.link/YC2K5aD2BDb">Playlist de Spotify</a>   </li>
-   <li> <a href=" https://www.instagram.com/reel/Cy0ZIjlv0-X/?igshid=MTc4MmM1YmI2Ng==">Reel de instagram de pinturas </a>  </li>
-</ul>
-<br> 
-<img src="img/musica.jpg" alt="Imagen de musica de sleep token" width="600">
-</p>
-<br> <br>
-
-
-<p> MI PAGINA WEB </p>
-   <h2>  Autor: Karen Perez Ortiz </h2>
-   <h2> Correo: 230110326@itsoeh.edu.mx </h2>
-</p>
-
+  <script src="script.js"></script>
 </body>
 </html>
